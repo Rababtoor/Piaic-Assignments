@@ -1,0 +1,368 @@
+*{margin: 0; padding: 0;
+ box-sizing: border-box;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+header {
+    text-align: center;
+}
+li{
+    display: inline-block;
+    margin: auto;
+    color: white;
+    width: 110px;
+    padding: 10px;
+    font-size: 12px;
+}
+.nav{
+    background-color: black;
+   
+}
+.nav2{
+    background-color:rgb(27, 25, 25);
+    /* width: 1518px; */
+    height: 80px;
+}
+.back{
+    color: white;
+    background-color: black;
+    float: center;
+    /* width: 1518px; */
+    height: 780px;
+    /* background-size: 1518px 780px; */
+}
+.font{
+    font-size: 22px;   
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+}
+.f1{
+    padding-top: 20px;
+    font-size: 42px;
+    background-color: black;
+    color: white;
+}
+.f2{
+    font-size: 15px;
+    padding-top: 20px;
+}
+.button{
+    background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 11px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  padding-top: 10px;
+  border-radius: 20px;
+}
+
+.box{
+    float: right;
+    width:55%;
+    margin-top: 10px;
+}
+.pt{
+    width: 40%;
+    text-align: center;
+    margin-top: 78px;
+    padding-top: 300px;
+    padding-bottom: 265px;
+    margin-left: 300px;
+}
+.pic2{
+    width: 40%;
+    float: left;
+    text-align: center;
+    padding: 100px;
+    margin-left: 120px;
+    margin-top: 40px;
+ 
+ 
+}
+
+.picdiv{
+    width: 40%;
+    float: right;
+    margin: 30px auto;
+  
+    margin-top: 40px;
+    margin-right: 120px;
+} 
+
+.col{
+    width: 100%;
+    height: 100px;
+    margin-top: 400px;
+    background-color:#f2f2f2;
+    text-align: center;
+    padding: 30px;
+}
+.colback{
+    background-color: #f2f2f2;
+    /* position: absolute; */  
+}
+.cols{
+    width: 30%;
+    height: 200px;
+    /* background: #fefefe; */
+    /* column-count: 4; */
+    margin: auto 80px;
+    text-align: justify;
+}
+.col2{
+    width: 30%;
+    margin-left: 500px;
+    margin-top: -199.9px;
+    text-align: justify;
+}
+.col3{
+    width: 30%;
+    margin-left: 800px;
+    margin-top: -560px;
+    text-align: justify;
+}
+.col4{
+    width: 30%;
+    margin-left: 1100px;
+    margin-top: -492px;
+    text-align: justify;
+}
+.lower{
+    margin: 100px 500px;
+}
+.getup{
+ width: 40%;
+ background-color: white;
+ height: 600px;
+ margin-left: 130px;
+ float: center;
+ text-align: center;
+ padding: 30px;
+ font-size: 20px;
+}
+.latest{
+ width: 40%;
+ background-color: white;
+ height: 600px;
+ margin-left: 800px;
+ margin-top: -600px;
+ margin-right: 50px;
+ float: center;
+ text-align: center;
+ padding: 30px;
+ font-size: 20px;
+}
+.para{
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+}
+.feature{
+    text-align: center;
+    padding: 100px;
+    font-size: 30px;
+}
+.one{
+width: 25%;
+height: 600px;
+background-color: white;
+margin-left: 195px;
+padding-top: 100px;
+float: center;
+}
+.two{
+    width: 25%;
+    height: 600px;
+    background-color: white;
+    margin-left: 600px;
+    margin-top: -600px;
+    float: center;
+}
+.three{
+    width: 25%;
+    height: 600px;
+    background-color: white;
+    margin-left: 1000px;
+    margin-top: -600px;
+}
+.link{
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+.aa{
+    padding-left: 130px;
+}
+.watch{
+    width: 90%;
+    background-color: white;
+    height: 700px;
+    margin-left: 80px;
+
+}
+.watchtext{
+    padding-top: 20px;
+    text-align: center;
+    margin-left: -60px;
+    font-size: 38px;
+}
+.delivery{
+width: 20%;
+height: 300px;
+margin-left: 200px;
+margin-top: 20px;
+}
+.dollar{
+    width: 20%;
+    height: 300px;
+    margin-left: 550px;
+    margin-top: -300px;
+}
+.setting{
+    width: 21%;
+    height: 300px;
+    margin-left: 900px;
+    margin-top: -300px;
+}
+.what{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.banner{
+    width: 90%;
+    height: 500px;
+    margin-left: 70px;
+}
+.only{
+    width: 40%;
+    height: 600px;
+    background-color: black;
+    margin-left: 90px;
+    margin-top: 50px;
+
+}
+.why{
+    width: 40%;
+    height: 600px;
+    background-color: black;
+    margin-left: 750px;
+    margin-top: -599px; 
+
+}
+.privacy{
+    width: 88%;
+    height: 500px;
+    background-color: black;
+    margin-left: 70px;
+    margin-top: 50px;
+
+}
+.getmore{
+    width: 80%;
+    height: 200px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.qtv{
+    width: 90%;
+    background-color: black;
+    height: 600px;
+    margin-left: 70px;
+}
+.card{
+    width: 34%;
+    height: 600px;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 20px;
+
+}
+.arcade{
+    width: 34%;
+    height: 600px;
+    margin-top: -505px;
+    margin-left: 780px;
+}
+.music{
+    width: 34%;
+    height: 600px;
+    background-color: rgba(255, 0, 98, 0.507);
+    margin-left: 200px;
+    margin-top: -50px;
+}
+.news{
+    width: 34%;
+    height: 600px;
+    margin-left: 800px;
+    margin-top: -600px;
+}
+.thatiphone{
+    width: 34%;
+    height: 600px;
+    margin-top: 50px;
+    background-color: black;
+    margin-left: 200px;
+}
+
+.shoot{
+    width: 34%;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 810px;
+    margin-top: -600px;
+}
+.lastpara{
+    width: 60%;
+    height: 650px;
+    margin-top: 50px;
+    margin-left: 280px;
+    font-size: 12px;
+    border-bottom: 2px solid grey;
+}
+.app{
+    width: 90%;
+    height: 200px;
+    
+}
+.footer1{
+    width: 15%;
+    height: 600px;
+    margin-top: -90px;
+    margin-left: 150px;
+}
+.footer2{
+    width: 15%;
+    height: 600px;
+    margin-top: -600px;
+    margin-left: 380px;
+}
+.footer3{
+    width: 15%;
+    height: 600px;
+    margin-top: -600px;
+    margin-left: 610px;
+}
+.footer4{
+    width: 15%;
+    height: 600px;
+    margin-top: -600px;
+    margin-left: 840px;
+}
+.footer5{
+    width: 15%;
+    height: 600px;
+    margin-top: -600px;
+    margin-left: 1070px;
+}
+.las{
+    width: 80%;
+    height: 50px;
+    margin-left: 100px;
+    border-top: 1px solid grey;
+}
