@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Challenge</title>
+</head>
+<body>
+    <script>
+    var fruits=["apple", "mango", "grapes", "peaches"];
+    console.log(fruits);
+
+    var i=prompt("enter stop value");
+
+    if ( i<fruits.length) {
+        console.log(fruits[i]);
+    }
+    
+    var p=["apple pie", "cake", "potato", "busicuits"];
+    var t=prompt('search your item');
+
+    for (i=0; i<p.length; i++){
+         if(t==p[i]){
+             console.log('found');
+         }else{
+            console.log('not found');
+         }
+
+    }
+
+    var v=[24,53,78,91,12];
+    console.log(v);
+    for (i=0; i<v.length; i++){
+        if(i<92){
+            console.log("largest number in" + v  + "is 91");
+        }
+        if (i<13){
+            console.log("largest number in" + v  + "is 12");
+        } break;
+    }
+
+
+for(var i=1; i<=7; i++){
+    for(j=6; j>=i; j--){
+        document.write("*");
+    }
+    document.write("<br>");
+}
+
+for (i=1; i<=5; i++){
+     for(d=1; d<=5; d++){
+         document.write('*');
+     }
+     document.write("<br>");
+}
+
+for (i=1; i<=5; i++){
+    for(j=1; j<=i; j++){
+        document.write('*'); 
+    }
+    document.write("<br>");
+}
+
+
+for (i=1; i<=5; i++){
+    for(j=5; j>=i; j--){
+        document.write('*'); 
+    }
+    document.write("<br>");
+}
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Assignment 3</title>
+</head>
+<body>
+    <h1>Changing Case</h1>
+    <script>
+        var t=prompt('enter any word to change case');
+        var a=t.toUpperCase();
+        console.log(a);
+
+        var g=prompt('enter any word to make it title case');
+        var f=g[0].toUpperCase();
+        var k=g.slice(1).toLowerCase();
+        console.log(f + k);
+    </script>
+<h2>Strings: measuring length and extracting parts</h2>
+<script>
+var t=prompt('enter your favourite mobile name');
+console.log(t.length);
+
+var m=prompt('enter your text');
+var j=m.slice(-1);
+console.log(j);
+
+// Strings: finding segments
+
+var str=("pakistani");
+var u=str.indexOf('n');
+console.log(u);
+
+var user=('The quick brown fox jumps over the lazy dog');
+var nam=user.indexOf('the');
+    console.log(nam);
+
+    // Strings: finding a character at a location
+
+var res='pakistani'
+var es=res.slice(3,4);
+console.log(es);
+
+    // Strings: replacing characters
+
+
+var city=('hyderabad');
+b=city.slice(5);
+console.log("islam" + b);
+
+var msg=("Ali and Sami are best friends. They play cricket and football together.");
+var ms=msg.replace(/and/g, "&");
+console.log(ms);
+
+
+// Strings: finding a character at a location
+
+var letter=("pakistani");
+var kl=letter.slice(3,4);
+console.log(kl);
+
+// Rounding numbers
+
+var number=prompt("enter any fraction number");
+yum= Math.round(number);
+console.log(yum);
+kp=Math.ceil(number);
+console.log(kp);
+pk=Math.floor(number);
+console.log(pk);
+
+var mock=prompt('enter negative float number');
+console.log(mock);
+ink=Math.round(mock);
+console.log(ink);
+win=Math.floor(mock);
+console.log(win);
+tin=Math.ceil(mock);
+console.log(tin);
+
+// Generating random numbers
+
+var mat=Math.random()*6;
+console.log(mat);
+kat=Math.round(mat);
+console.log(kat);
+
+var head=Math.random()*3;
+var tail=Math.random()*1;
+var kil=prompt('flip your coin between 2 to 1');
+var h=Math.ceil(head);
+var t=Math.ceil(tail);
+console.log(h);
+console.log(t);
+if (kil==h){
+    console.log('heads');
+}else if(kil==t){
+    console.log('tail');
+}
+
+var ran=Math.random()*10;
+var secret=Math.floor(ran);
+console.log(secret);
+var user=prompt('enter your number');
+if (user<=10){
+    alert('congratulations');
+} else {
+    alert('fails');
+}
+
+// Converting strings to integers and decimals
+
+var weight=prompt('enter your weight');
+var t=parseFloat(weight);
+console.log(t);
+
+// Converting strings to numbers, numbers to strings
+
+var the="475";
+var a=typeof(the);
+console.log(a);
+
+numb=Number(the);
+console.log(numb);
+
+var x = 1234; 
+var y= x.toString();
+ var u= typeof(y);
+console.log(y);
+document.write=(u);
+
+var numb= 35.36;
+var til=numb.toString();
+var yil=til.replace(".","");
+console.log(yil);
+
+
+// Controlling the length of decimals
+
+var perc=30/45*100
+console.log(perc);
+
+tot=perc.toFixed(2);
+console.log(tot);
+
+
+
+
+
+</script>
+</body>
+</html>
