@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Assignment 2</title>
+</head>
+<body>
+    <script>
+    
+    var gen1= prompt("gender?");
+
+if (gen1=='male'){
+  alert("Good morning sir");
+}
+if (gen1=='female'){
+  alert("Good morning Ma'am");
+}
+var vowel=prompt('enter only one alphabet and it should be vowel');
+if (vowel=='a'){
+  alert("true it is vowel");
+}
+if (vowel=='e'){
+  alert("true it is vowel");
+}
+if (vowel=='i'){
+  alert("true it is vowel");
+}
+if (vowel=='o'){
+  alert("true it is vowel");
+}
+if (vowel=='u'){
+  alert("true it is vowel");
+}
+if (vowel=='b') {
+  alert('false, it is consonant');
+}
+if (vowel=='c') {
+  alert('false, it is consonant');
+}
+if (vowel=='d') {
+  alert('false, it is consonant');
+}
+if (vowel=='f') {
+  alert('false, it is consonant');
+}
+if (vowel=='g') {
+  alert('false, it is consonant');
+}
+if (vowel=='h') {
+  alert('false, it is consonant');
+}
+if (vowel=='j') {
+  alert('false, it is consonant');
+}
+if (vowel=='k') {
+  alert('false, it is consonant');
+}
+if (vowel=='l') {
+  alert('false, it is consonant');
+}
+if (vowel=='m') {
+  alert('false, it is consonant');
+}
+if (vowel=='p') {
+  alert('false, it is consonant');
+}
+if (vowel=='q') {
+  alert('false, it is consonant');
+}
+if (vowel=='r') {
+  alert('false, it is consonant');
+}
+if (vowel=='s') {
+  alert('false, it is consonant');
+}
+if (vowel=='t') {
+  alert('false, it is consonant');
+}
+if (vowel=='v') {
+  alert('false, it is consonant');
+}
+if (vowel=='w') {
+  alert('false, it is consonant');
+}
+if (vowel=='x') {
+  alert('false, it is consonant');
+}
+if (vowel=='y') {
+  alert('false, it is consonant');
+}
+if (vowel=='z') {
+  alert('false, it is consonant');
+}
+
+</script>
+<script>
+var color=prompt('enter traffic light color');
+if (color=='red'){
+  alert('Must stop');
+} else if (color=='green'){
+  alert('move now');
+}else if (color=='yellow'){
+  alert('ready to move')
+}
+var num=prompt('enter any number');
+if (num >0){
+  alert('Number is positive');
+ 
+}
+else if (num==0){
+  alert('Number is zero');
+}
+
+else{
+  alert('Number is negative');
+}
+
+var pwd=prompt('Enter your password');
+var pwd2=prompt('re-enter your password');
+
+
+if (pwd==null){
+  alert('Please Enter your password');
+}else if (pwd===pwd2){
+  alert('Correct! The password you entered matches the original password');
+}else if (pwd!==pwd2){
+  alert('incorrect password');
+}
+
+var time=prompt('Enter time');
+var time1=1900;
+
+if (time1>=1900 && time1< 1200){
+  alert('Good Morning');
+}else if (time1>=1200 && time1 < 1700){
+  alert('afternoon');
+}else if(time1>=1700 && time1<2100){
+  alert('Good Morning');
+}else if (time>=2100 && time1< 2359){
+  alert('Good night');
+}
+
+var arr1=["sara", "rashid", "farah"];
+var arr2=["350", "410", "230"];
+var aar3=['arr2[0]/500'];
+document.write("Score of" +''+ arr1[0] +''+ "is" +''+ arr2[0] +''+ "& Percentage:" +''+ arr2[0]/500*100 + "</br>");
+document.write("Score of" +''+ arr1[1] +''+ "is" +''+ arr2[1] +''+ "& Percentage:" +''+ arr2[1]/500*100 + "</br>");
+document.write("Score of" +''+ arr1[2] +''+ "is" +''+ arr2[2] +''+ "& Percentage:" +''+ arr2[2]/500*100 + "</br>" +"</br>");
+
+var b=["green", "red", "orange", "black"];
+document.write(b + "</br>");
+var c=prompt('add your color in the start of the list');
+b.unshift(c);
+document.write(b + "</br>");
+
+var d=prompt('add your color in the end of the list');
+b.push(d);
+document.write(b + "</br>");
+
+var t=['blue', 'green', 'lilac'];
+t.unshift("white", "brown");
+console.log(t);
+
+t.shift('white', 'brown');
+console.log(t);
+
+t.pop('lilac');
+console.log(t);
+
+
+var f=prompt('at which index you want to add color?');
+var w=prompt('color name');
+if (t[f]=w){
+  console.log(t);
+}
+
+
+var f=prompt('at which index you want to delete color?');
+var w=prompt('color name');
+t.splice(f,w);
+console.log(t);
+
+var y=['karachi', 'kpk', 'gawadar', 'sibbi', 'ghoyki'];
+var selectedcities=y.slice(2,4);
+console.log(selectedcities);
+
+var city=[
+      ['karachi', 'sindh'],
+      ['lahore', 'punjab'],
+      ['islamabad', 'pakistan'],
+      ];
+document.write(city[0][1] +"</br>");
+
+var p=2;
+var n;
+for (i=1; i<16; i++){
+       n=p*i;
+       document.write(p + "x" + i + "=" + n +"</br>");
+}
+
+for(i=1; i<16; i++){
+  
+  document.write(i +"," +"<br>");
+ 
+}
+
+var k;
+for(i=10; i>=1; i--){
+    document.write(i +",");
+  }
+
+for (a=0; a<=20; a++){
+  if(a%2 ==0 ){
+    document.write(a + "<br>");
+  }
+}
+
+for (a=0; a<=20; a++){
+  if(a%2 != 0 ){
+    document.write(a + "<br>");
+  }
+}
+for (a=1; a<=20; a++){
+  if(a%2 ==0 ){
+    document.write(a + "k" + "<br>");
+  }
+}
+
+var h=["banana", "ornage", "grapes", "olives"];
+document.write(h + "</br>");
+var t=prompt('which item you want to print?');
+var k=h.slice([t]);
+document.write(k);
+
+arr=['cake', 'apple pie', 'cookies', 'chips', 'patties'];
+var p=prompt('enter you item');
+for (i==o; i<arr.length; i++){
+  if (p==i){
+    console.log('item found');
+  }
+  
+}
+    
+    
+    
+    
+    </script>
+</body>
+</html>
