@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Js Assignment 4</title>
+</head>
+<body>
+    <h1 style="text-align:center;">Assignment 4</h1>
+    <script>
+    var date=new Date();
+    document.write(date + "</br>");
+    </script>
+
+    <h1 style="text-align: center;">Extracting parts of the date and time</h1>
+    <script>
+    var month=new Date();    
+    var monthname=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    var curr=month.getMonth();
+    var read=monthname[month.getMonth()];
+    document.write(read + "</br>");
+
+    var day=['Sun', 'Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat'];
+    var days=day[month.getDay()];
+    document.write(days + "</br>");
+    
+    </script>
+    
+    <h1 style="text-align: center;">Specifying a date and time</h1>
+    <script>
+    var today=new Date();
+    var ramz=new Date('june 6, 2019');
+    var Mtoday=today.getTime();
+    var Mramz=ramz.getTime();
+
+    var diff=(Mtoday-Mramz)/1000*60*60*24;
+    var fdiff=Math.floor(diff);
+    
+    document.write(fdiff + "</br>");
+    </script>
+    <h1 style="text-align: center;">Changing elements of a date and time</h1>
+    <script>
+    var today=new Date();
+    var newf=new Date('1919/12/3');
+    
+    alert(newf);
+    
+    </script>
+    
+    <h1 style="text-align: center;">Functions</h1>
+    <script>
+    greet("sana","bucha");
+    function greet(fname, lname){
+        document.write("hello" + " " + fname + " " + lname);
+    }
+
+    
+    
+    </script>
+
+    <h1 style="text-align: center;">Functions: passing them data</h1>
+    <script>
+    function message(string){
+        var d=prompt('enter any city name');
+        var s= d.slice(0,1);
+        var y= d.slice(1);
+        var f=s.toUpperCase();
+        document.write(f + y);
+
+    }
+    message();
+
+    function word(string,letter){
+        var o=prompt('enter your word');
+        var l=o.length();
+        document.write(l);
+
+    }
+    word();
+    
+    </script>
+    <h1 style="text-align: center;">Functions: passing data back from them</h1>
+    <script>
+    function calculator(num1, num2){
+        document.write(num1 + num2);
+    }
+    calculator(8,3);
+    </script>
+    <h1 style="text-align: center;">switch statements</h1>
+    <script>
+    
+    function light(a){
+      d=prompt('enter traffic light color');  
+      switch (d) {
+        case "red":alert('must stop!');
+        break;
+        case "yellow":alert('ready to move');
+        break;
+        case "green":alert('move now');
+    }
+
+    }
+    
+    light();
+    
+    
+    </script>
+    <h1 style="text-align: center;">while loops and do while loops</h1>
+    <script>
+    
+    var i=0;
+    var k;
+    var p=2
+    while(i<15){
+           k=p*i;
+           i++;
+           document.write(p + "x" + i + "=" + k + "</br>");
+    }
+    
+
+    var i=1;
+    while(i<15){
+        document.write(i);
+        i++;
+        document.write("</br>");
+    }
+
+    var i=10;
+    while(i>0){
+        document.write(i);
+        i--;
+        document.write("</br>");
+    }
+    
+    
+    
+    </script>
+
+
+
+
+</body>
+</html>
